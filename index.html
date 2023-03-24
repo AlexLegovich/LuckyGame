@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="wrapper">
+    <div class="number__main">
+        <div class="number__container">
+            <div class="number__desc">
+                <div class="number__img"><img src="/img/GUESS THE NUMBER.svg" alt=""></div>
+                <p class="intro">Type in the number and check your luck!</p>
+                <div class="number">?</div>
+            </div>
+            <div class="number__input input">
+                <p class="start">Type in the number from 1 to 30</p>
+                <input class="guess" type="number">
+                <button type="submit" class="btn-check check">Check the luck</button>
+            </div>
+            <div class="bottom">
+                <p class="label-score"> 💯 Remaining: <span class="score">20</span> </p>
+                <p class="high-score"> 🥇 Best result: <span class="highscore">0</span></p>
+            </div>
+             <button class="btn-again">Reset the score!</button>
+        </div>
+    </div>
+    <div class="konfetti">
+        <img src="/img/konfetti.gif" alt="">
+    </div>
+</div>
+    <script src="/js/main.js"></script>
+</body>
+</html>
